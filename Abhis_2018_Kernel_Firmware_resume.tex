@@ -106,7 +106,7 @@
 % Coursework
 %------------------------------------------------
 
-\section{Classes}
+\section{Coursework}
 \subsection{HW/SW related}
 \textbullet{} Operating Systems (self taught) \\
 \textbullet{} Data Structures and Algorithms \\
@@ -153,16 +153,18 @@
 \runsubsection{Core OS SW Developer}
 \descript{| QNX Software Systems}
 \location{September 2017 – December 2017| Ottawa}
-\textit{\bf{C (advanced experience),GDB, GCC (internals), x86 assembly, aarch64 assembly}}
+\textit{\bf{C (advanced experience),GDB, GCC (internals), x86 \& arm64 assembly, Makefiles}}
 %{\it Bluetooth Low Energy, C, Assembly, I2C, UART, Python}
+\vspace{\topsep}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
 %\item Worked with a multi-core system for a hearing aid device
-\item Implemented 
+\item Developed unit tests for QNX's implementation of lib/c and core kernel components, including memory manager, process manager and profiler tool. 
+\item Read through thousands of lines of C code and architecture specific assembly code to write and debug unit tests that tested for source functionality and 100\% line and branch coverage. 
+\item Debugged said unit test on arm32 and aarch64 qemu enviorments on Linux, using gdb.
 % tasks include creating ble characteristics that include parameters that can be changed wirelessly
-\item Programmed 
-\item Gained 
-\item Wro
+\item Gained a deep understanding of kernel internals, kernel development \& testing process and ARM \& x86 based hardware architectures. 
+\item Gained domain specific knowledge about the virtual memory manager, dynamic loader, malloc implementation, Makefile build system and the ext3 file system. 
 %\item Read schematics to make pin connections between two boards
 \end{tightitemize}
 \sectionspace 
@@ -170,23 +172,38 @@
 \runsubsection{Hardware \& Software Developer}
 \descript{| ON Semiconductor}
 \location{May 2017 – August 2017 | Waterloo}
-\textit{\bf{Bluetooth low energy, C, GDB}}
+\textit{\bf{Bluetooth low energy, C, GDB, JTAG}}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Worked independently in an agile environment and automated the testing of Electronic Medical Records (EMR) software through Selenium testing tool
-\item Constructed keywords in Python using Selenium library and created test cases in Robot framework for automation
+\item Developed bluetooth and power firmware samples for ARM Cortex-M3 BLE SoC, in an agile work enviornment.
+\item Created a new power initilization sample that wrote power values and initialization instructions into non volatlile region of memory. Initilization insturctions were the first set of instructions to run on power reset.
+\item Learned to comb through hardware specific reference manuals to bring up and debug bare metal software. 
+\item Used GDB \& JTAG interface to probe Cortex-M3's physical memory space for validation and hardware fault detection.
 %\item Successfully developed and applied alternative algorithms to create a test case in order to bypass a web application bug
 \end{tightitemize}
-\sectionspace
 
+\sectionspace
 \runsubsection{Graphics Software Developer}
 \descript{| QNX Software Systems}
-\location{September 2016 – December 2016 | Cambridge}
+\location{September 2016 – December 2016 | Ottawa}
 \textit{\bf{OpenGL, C, GDB}}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Worked independently in an agile environment and automated the testing of Electronic Medical Records (EMR) software through Selenium testing tool
-\item Constructed keywords in Python using Selenium library and created test cases in Robot framework for automation
+\item Developed font rendering test application for QNX OS, using opengl and font free type library. 
+\item Used GDB to cross debug application on j6 arm32 development board.
+\item Gained a good understanding of the graphics pipeline and the use of the OpenGL library. 
+\end{tightitemize}
+\sectionspace
+
+\runsubsection{Jr. Embedded Software Developer}
+\descript{| University of Waterloo Real time Embedded Systems Lab}
+\location{May 2015 – December 2015 | Waterloo}
+\textit{\bf{Gentoo Linux, Network Driver debugging, Python, BASH}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Completed the hardware bringup of intel's galileo devlopment board, using gentoo linux. 
+\item Investigated and troubleshoot Gentoo Linux's installation and missing network driver issue. 
+\item Cross compiled and tested several verions of the Linux kernel with seperate drivers to successfully enable networking on the board. 
 \end{tightitemize}
 \sectionspace
 
@@ -201,7 +218,7 @@
 % \end{tightitemize}
 
 
-\section{Projects}
+%\section{Projects}
 % \runsubsection{Sensors and Instrumentation}
 % \descript{Soldering}
 % \begin{tightitemize}
@@ -260,21 +277,21 @@
 % \end{tightitemize}
 % \sectionspace
 
-\runsubsection{Embedded Game Development}
-\descript{\textit{| RTOS, Multi-threading, Scheduling, Semaphores}}
-\begin{tightitemize}
-\item "Super Mario" game was developed on ARM Cortex M3 microcontroller using multi-threading and task scheduling techniques
-\item Mutex semaphores were used to display different objects on LCD screen
-\end{tightitemize}
-\sectionspace % Some whitespace after the section
+%\runsubsection{Embedded Game Development}
+%\descript{\textit{| RTOS, Multi-threading, Scheduling, Semaphores}}
+%\begin{tightitemize}
+%\item "Super Mario" game was developed on ARM Cortex M3 microcontroller using multi-threading %and task scheduling techniques
+%\item Mutex semaphores were used to display different objects on LCD screen
+%\end{tightitemize}
+%\sectionspace % Some whitespace after the section
 
-\runsubsection{Audio Player} 
-\descript{\textit{| Embedded C, Interrupts, Bitwise operations}}
-\begin{tightitemize}
-\item Developed an audio music player to include features like play, pause, seek forward and backward, fast forward and rewind
-\item Read audio files from SD card and processed the data into left and right buffers using the knowledge of bit-shifting
-\end{tightitemize}
-\sectionspace
+%\runsubsection{Audio Player} 
+%\descript{\textit{| Embedded C, Interrupts, Bitwise operations}}
+%\begin{tightitemize}
+%\item Developed an audio music player to include features like play, pause, seek forward and %backward, fast forward and rewind
+%\item Read audio files from SD card and processed the data into left and right buffers using the knowledge of bit-shifting
+%\end{tightitemize}
+%\sectionspace
 
 %\sectionspace
 
